@@ -4568,9 +4568,9 @@ SELECT KuRaqam, KuNom, KuDarsDavomiylig, KuYonID, KuYonNom, KuOqID, KuOqIsm FROM
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
             this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[MaoshTb1] ([OqRaqam], [OqIsm], [OqMaosh], [MaDavri], [MaOqData" +
-                "]) VALUES (@OqRaqam, @OqIsm, @OqMaosh, @MaDavri, @MaOqData);\r\nSELECT MaRaqam, Oq" +
-                "Raqam, OqIsm, OqMaosh, MaDavri, MaOqData FROM MaoshTb1 WHERE (MaRaqam = SCOPE_ID" +
-                "ENTITY())";
+                "]) VALUES (@OqRaqam, @OqIsm, @OqMaosh, @MaDavri, @MaOqData);\nSELECT MaRaqam, OqR" +
+                "aqam, OqIsm, OqMaosh, MaDavri, MaOqData FROM MaoshTb1 WHERE (MaRaqam = SCOPE_IDE" +
+                "NTITY())";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@OqRaqam", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "OqRaqam", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@OqIsm", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "OqIsm", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -6387,8 +6387,8 @@ SELECT ToRaqam, TaRaqam, TaIsm, TaYonalish, ToDavri, ToMiqdori, TolashData FROM 
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
             this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[UniversitetTb1] ([UnNom], [UnShahar], [UnData], [UnAsosiy]) VA" +
-                "LUES (@UnNom, @UnShahar, @UnData, @UnAsosiy);\r\nSELECT UnRaqam, UnNom, UnShahar, " +
-                "UnData, UnAsosiy FROM UniversitetTb1 WHERE (UnRaqam = SCOPE_IDENTITY())";
+                "LUES (@UnNom, @UnShahar, @UnData, @UnAsosiy);\nSELECT UnRaqam, UnNom, UnShahar, U" +
+                "nData, UnAsosiy FROM UniversitetTb1 WHERE (UnRaqam = SCOPE_IDENTITY())";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@UnNom", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "UnNom", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@UnShahar", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "UnShahar", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -6771,8 +6771,8 @@ SELECT UnRaqam, UnNom, UnShahar, UnData, UnAsosiy FROM UniversitetTb1 WHERE (UnR
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
             this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[YonalishTb1] ([YonNom], [YonQabul], [YonTolovlar]) VALUES (@Yo" +
-                "nNom, @YonQabul, @YonTolovlar);\r\nSELECT YonRaqam, YonNom, YonQabul, YonTolovlar " +
-                "FROM YonalishTb1 WHERE (YonRaqam = SCOPE_IDENTITY())";
+                "nNom, @YonQabul, @YonTolovlar);\nSELECT YonRaqam, YonNom, YonQabul, YonTolovlar F" +
+                "ROM YonalishTb1 WHERE (YonRaqam = SCOPE_IDENTITY())";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@YonNom", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "YonNom", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@YonQabul", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "YonQabul", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
