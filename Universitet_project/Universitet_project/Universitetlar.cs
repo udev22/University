@@ -174,6 +174,12 @@ namespace Unversitet
             this.Hide();
             kurslar.Show();
         }
+        private void DavomatLB_Click(object sender, EventArgs e)
+        {
+            Davomat davomat = new Davomat();
+            this.Hide();
+            davomat.Show();
+        }
         private void TolovlarLB_Click(object sender, EventArgs e)
         {
             Tolovlar tolovlar = new Tolovlar();

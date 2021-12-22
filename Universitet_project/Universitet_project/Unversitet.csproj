@@ -77,6 +77,12 @@
     <Compile Include="Button_woc.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Davomat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Davomat.Designer.cs">
+      <DependentUpon>Davomat.cs</DependentUpon>
+    </Compile>
     <Compile Include="ElipsControls.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -129,6 +135,9 @@
     <Compile Include="Yonalish.Designer.cs">
       <DependentUpon>Yonalish.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Davomat.resx">
+      <DependentUpon>Davomat.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Kurslar.resx">
       <DependentUpon>Kurslar.cs</DependentUpon>
     </EmbeddedResource>

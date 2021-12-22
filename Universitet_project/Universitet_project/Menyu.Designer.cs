@@ -66,7 +66,7 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.UniversitetlarLB = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.label7 = new System.Windows.Forms.Label();
+            this.DavomatLB = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.TolovlarLB = new System.Windows.Forms.Label();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
@@ -450,7 +450,7 @@
             this.MenyuTablo.Controls.Add(this.pictureBox3);
             this.MenyuTablo.Controls.Add(this.UniversitetlarLB);
             this.MenyuTablo.Controls.Add(this.pictureBox4);
-            this.MenyuTablo.Controls.Add(this.label7);
+            this.MenyuTablo.Controls.Add(this.DavomatLB);
             this.MenyuTablo.Controls.Add(this.pictureBox5);
             this.MenyuTablo.Controls.Add(this.TolovlarLB);
             this.MenyuTablo.Controls.Add(this.pictureBox6);
@@ -527,15 +527,16 @@
             this.pictureBox4.TabIndex = 190;
             this.pictureBox4.TabStop = false;
             // 
-            // label7
+            // DavomatLB
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label7.Location = new System.Drawing.Point(59, 475);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(70, 27);
-            this.label7.TabIndex = 203;
-            this.label7.Text = "Maosh";
+            this.DavomatLB.AutoSize = true;
+            this.DavomatLB.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.DavomatLB.Location = new System.Drawing.Point(59, 475);
+            this.DavomatLB.Name = "DavomatLB";
+            this.DavomatLB.Size = new System.Drawing.Size(91, 27);
+            this.DavomatLB.TabIndex = 203;
+            this.DavomatLB.Text = "Davomat";
+            this.DavomatLB.Click += new System.EventHandler(this.DavomatLB_Click);
             // 
             // pictureBox5
             // 
@@ -808,7 +809,7 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label UniversitetlarLB;
         private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label DavomatLB;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.Label TolovlarLB;
         private System.Windows.Forms.PictureBox pictureBox6;

@@ -74,3 +74,4 @@ C:\Users\user\Desktop\Universitet_project\Universitet_project\Universitet_projec
 C:\Users\user\Desktop\Universitet_project\Universitet_project\Universitet_project\obj\Debug\Unversitet.csproj.CopyComplete
 C:\Users\user\Desktop\Universitet_project\Universitet_project\Universitet_project\obj\Debug\Unversitet.exe
 C:\Users\user\Desktop\Universitet_project\Universitet_project\Universitet_project\obj\Debug\Unversitet.pdb
+C:\Users\user\Desktop\Universitet_project\Universitet_project\Universitet_project\obj\Debug\Unversitet.Davomat.resources

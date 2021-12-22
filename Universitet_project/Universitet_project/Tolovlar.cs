@@ -278,6 +278,12 @@ namespace Unversitet
             this.Hide();
             kurslar.Show();
         }
+        private void DavomatLB_Click(object sender, EventArgs e)
+        {
+            Davomat davomat = new Davomat();
+            this.Hide();
+            davomat.Show();
+        }
         private void UniversitetlarLB_Click(object sender, EventArgs e)
         {
             Universitetlar universitetlar = new Universitetlar();

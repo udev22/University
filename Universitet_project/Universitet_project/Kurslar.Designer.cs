@@ -48,7 +48,7 @@
             this.KuDGV = new Guna.UI.WinForms.GunaDataGridView();
             this.panel2 = new System.Windows.Forms.Panel();
             this.UniversitetLB = new System.Windows.Forms.Label();
-            this.MaoshLB = new System.Windows.Forms.Label();
+            this.DavomatLB = new System.Windows.Forms.Label();
             this.TolovlarLB = new System.Windows.Forms.Label();
             this.KurslarLB = new System.Windows.Forms.Label();
             this.OqituvchiLB = new System.Windows.Forms.Label();
@@ -195,7 +195,7 @@
             // 
             this.KuYonalishIDCB.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.KuYonalishIDCB.FormattingEnabled = true;
-            this.KuYonalishIDCB.Location = new System.Drawing.Point(595, 194);
+            this.KuYonalishIDCB.Location = new System.Drawing.Point(590, 194);
             this.KuYonalishIDCB.Name = "KuYonalishIDCB";
             this.KuYonalishIDCB.Size = new System.Drawing.Size(99, 26);
             this.KuYonalishIDCB.TabIndex = 95;
@@ -289,15 +289,16 @@
             this.UniversitetLB.Text = "Universitetlar";
             this.UniversitetLB.Click += new System.EventHandler(this.UniversitetLB_Click);
             // 
-            // MaoshLB
+            // DavomatLB
             // 
-            this.MaoshLB.AutoSize = true;
-            this.MaoshLB.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.MaoshLB.Location = new System.Drawing.Point(59, 475);
-            this.MaoshLB.Name = "MaoshLB";
-            this.MaoshLB.Size = new System.Drawing.Size(70, 27);
-            this.MaoshLB.TabIndex = 203;
-            this.MaoshLB.Text = "Maosh";
+            this.DavomatLB.AutoSize = true;
+            this.DavomatLB.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.DavomatLB.Location = new System.Drawing.Point(59, 475);
+            this.DavomatLB.Name = "DavomatLB";
+            this.DavomatLB.Size = new System.Drawing.Size(91, 27);
+            this.DavomatLB.TabIndex = 203;
+            this.DavomatLB.Text = "Davomat";
+            this.DavomatLB.Click += new System.EventHandler(this.DavomatLB_Click);
             // 
             // TolovlarLB
             // 
@@ -470,7 +471,7 @@
             this.KurslarTablo.Controls.Add(this.pictureBox3);
             this.KurslarTablo.Controls.Add(this.UniversitetLB);
             this.KurslarTablo.Controls.Add(this.pictureBox4);
-            this.KurslarTablo.Controls.Add(this.MaoshLB);
+            this.KurslarTablo.Controls.Add(this.DavomatLB);
             this.KurslarTablo.Controls.Add(this.pictureBox5);
             this.KurslarTablo.Controls.Add(this.TolovlarLB);
             this.KurslarTablo.Controls.Add(this.pictureBox6);
@@ -665,7 +666,7 @@
         private Guna.UI.WinForms.GunaDataGridView KuDGV;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label UniversitetLB;
-        private System.Windows.Forms.Label MaoshLB;
+        private System.Windows.Forms.Label DavomatLB;
         private System.Windows.Forms.Label TolovlarLB;
         private System.Windows.Forms.Label KurslarLB;
         private System.Windows.Forms.Label OqituvchiLB;

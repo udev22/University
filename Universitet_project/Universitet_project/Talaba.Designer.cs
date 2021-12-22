@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Talaba));
             this.panel3 = new System.Windows.Forms.Panel();
             this.label10 = new System.Windows.Forms.Label();
@@ -60,7 +60,7 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.UniversitetlarLB = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.label7 = new System.Windows.Forms.Label();
+            this.DavomatLB = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.TolovlarLB = new System.Windows.Forms.Label();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
@@ -72,11 +72,11 @@
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.TalabaLB = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.MenyuLB = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.TaChqishBtnBtn = new Guna.UI.WinForms.GunaControlBox();
             this.YonChqishBtnBtn = new Guna.UI.WinForms.GunaControlBox();
             this.gunaControlBox2 = new Guna.UI.WinForms.GunaControlBox();
-            this.MenyuLB = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.TaDGV)).BeginInit();
             this.TalabaTablo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -257,30 +257,30 @@
             // 
             // TaDGV
             // 
-            dataGridViewCellStyle19.BackColor = System.Drawing.Color.White;
-            this.TaDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle19;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            this.TaDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.TaDGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.TaDGV.BackgroundColor = System.Drawing.Color.White;
             this.TaDGV.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.TaDGV.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.TaDGV.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle20.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle20.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle20.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle20.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle20.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.TaDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle20;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.TaDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.TaDGV.ColumnHeadersHeight = 27;
-            dataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle21.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle21.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle21.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle21.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle21.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.TaDGV.DefaultCellStyle = dataGridViewCellStyle21;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.TaDGV.DefaultCellStyle = dataGridViewCellStyle3;
             this.TaDGV.EnableHeadersVisualStyles = false;
             this.TaDGV.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.TaDGV.Location = new System.Drawing.Point(305, 270);
@@ -380,7 +380,7 @@
             this.TalabaTablo.Controls.Add(this.pictureBox3);
             this.TalabaTablo.Controls.Add(this.UniversitetlarLB);
             this.TalabaTablo.Controls.Add(this.pictureBox4);
-            this.TalabaTablo.Controls.Add(this.label7);
+            this.TalabaTablo.Controls.Add(this.DavomatLB);
             this.TalabaTablo.Controls.Add(this.pictureBox5);
             this.TalabaTablo.Controls.Add(this.TolovlarLB);
             this.TalabaTablo.Controls.Add(this.pictureBox6);
@@ -457,15 +457,16 @@
             this.pictureBox4.TabIndex = 190;
             this.pictureBox4.TabStop = false;
             // 
-            // label7
+            // DavomatLB
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label7.Location = new System.Drawing.Point(59, 475);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(70, 27);
-            this.label7.TabIndex = 203;
-            this.label7.Text = "Maosh";
+            this.DavomatLB.AutoSize = true;
+            this.DavomatLB.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.DavomatLB.Location = new System.Drawing.Point(59, 475);
+            this.DavomatLB.Name = "DavomatLB";
+            this.DavomatLB.Size = new System.Drawing.Size(91, 27);
+            this.DavomatLB.TabIndex = 203;
+            this.DavomatLB.Text = "Davomat";
+            this.DavomatLB.Click += new System.EventHandler(this.DavomatLB_Click);
             // 
             // pictureBox5
             // 
@@ -579,6 +580,17 @@
             this.panel1.Size = new System.Drawing.Size(5, 643);
             this.panel1.TabIndex = 186;
             // 
+            // MenyuLB
+            // 
+            this.MenyuLB.AutoSize = true;
+            this.MenyuLB.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.MenyuLB.Location = new System.Drawing.Point(59, 142);
+            this.MenyuLB.Name = "MenyuLB";
+            this.MenyuLB.Size = new System.Drawing.Size(71, 27);
+            this.MenyuLB.TabIndex = 197;
+            this.MenyuLB.Text = "Menyu";
+            this.MenyuLB.Click += new System.EventHandler(this.MenyuLB_Click);
+            // 
             // label19
             // 
             this.label19.AutoSize = true;
@@ -636,17 +648,6 @@
             this.gunaControlBox2.OnPressedColor = System.Drawing.Color.Black;
             this.gunaControlBox2.Size = new System.Drawing.Size(45, 29);
             this.gunaControlBox2.TabIndex = 215;
-            // 
-            // MenyuLB
-            // 
-            this.MenyuLB.AutoSize = true;
-            this.MenyuLB.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.MenyuLB.Location = new System.Drawing.Point(59, 142);
-            this.MenyuLB.Name = "MenyuLB";
-            this.MenyuLB.Size = new System.Drawing.Size(71, 27);
-            this.MenyuLB.TabIndex = 197;
-            this.MenyuLB.Text = "Menyu";
-            this.MenyuLB.Click += new System.EventHandler(this.MenyuLB_Click);
             // 
             // Talaba
             // 
@@ -729,7 +730,7 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label UniversitetlarLB;
         private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label DavomatLB;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.Label TolovlarLB;
         private System.Windows.Forms.PictureBox pictureBox6;
