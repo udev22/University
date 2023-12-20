@@ -1,3 +1,3 @@
-# University
+#University project
 Telegram: @udev22
-Telefon: +99 899 105 90 03
+Telefon: +99 850 001 8803
